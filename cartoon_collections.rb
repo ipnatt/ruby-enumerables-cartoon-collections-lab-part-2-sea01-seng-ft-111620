@@ -22,9 +22,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-    if planeteer_calls.find { |valid_calls| }
-  end
-    elsif
+  planeteer_calls.find { |valid_calls| valid_calls == ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"] }
 
   
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
